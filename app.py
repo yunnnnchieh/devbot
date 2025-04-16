@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "✅ DevTrackBot is running!"
+    return "DevTrackBot is running!"
 
 @app.route("/callback", methods=["POST"])
 def callback():
