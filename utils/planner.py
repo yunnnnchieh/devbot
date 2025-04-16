@@ -9,7 +9,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def generate_plan(topic: str) -> str:
     prompt = f"""
 你是一位 DevOps 教練，請幫我為「{topic}」規劃一個四步驟的學習計畫，每步驟要有主題與簡短說明，不需要使用 markdown。
-請用中文回覆。
+請用繁體中文回覆。
 """
 
     try:
